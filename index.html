@@ -97,35 +97,17 @@
         </div>
       </div>
     </div>
-
-    <div id="cmpAction" style="display:none">
-      <div class="header-large-title">
-        <h1 class="title">&nbsp;</h1>
-      </div>
-
-      <div class="section mb-5 text-center">
-        <div class="card m-2">
-          <div class="card-body">
-            <div id="remoteResponse"></div>
-          </div>
-        </div>
-        <button type="button" onclick="$('#cmpMain').show(); $('#cmpAction').hide();"
-          class="btn btn-icon btn-success mt-2 pr-5 pl-5 btn-done" style="display:none;">
-          Done
-        </button>
-      </div>
-    </div>
   </div>
 
   <div class="footer-unlocked">
     <div class="appBottomMenu">
-      <a href="/#" class="item">
+      <a href="#" class="item">
         <div class="col">
           <ion-icon name="briefcase-outline"></ion-icon>
           <strong>Vault</strong>
         </div>
       </a>
-      <a href="/transfer" class="item">
+      <a href="transfer.html" class="item">
         <div class="col">
           <ion-icon name="paper-plane-outline"></ion-icon>
           <strong>Transfer</strong>
@@ -138,13 +120,13 @@
           </div>
         </div>
       </a>
-      <a href="/#" class="item">
+      <a href="#" class="item">
         <div class="col">
           <ion-icon name="receipt-outline"></ion-icon>
           <strong>History</strong>
         </div>
       </a>
-      <a href="/#" class="item">
+      <a href="#" class="item">
         <div class="col">
           <ion-icon name="options-outline"></ion-icon>
           <strong>Settings</strong>
@@ -181,10 +163,11 @@
     </div>
   </div>
 
+  <script src="dist/vendors.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.9/web3.min.js"></script>
   <script type="text/javascript" src="assets/js/instascan.min.js"></script>
-  <script src="dist/vendors.js"></script>
   <script src="dist/app.js"></script>
 </body>
 
