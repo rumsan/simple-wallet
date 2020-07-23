@@ -1,0 +1,25 @@
+{
+  "name": "rumsan-simple-wallet",
+  "version": "0.1.0",
+  "description": "Simple Ethereum Wallet",
+  "scripts": {
+    "start": "cross-env ENV_TYPE=development gulp",
+    "build": "cross-env ENV_TYPE=production gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "gulp": "^4.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "ethereumjs-wallet": "^1.0.0",
+    "jquery": "^3.5.1",
+    "qrcode": "^1.4.4",
+    "store": "^2.0.12",
+    "sweetalert2": "^9.17.0"
+  }
+}

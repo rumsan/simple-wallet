@@ -1,0 +1,16 @@
+{
+  "isProd": false,
+  "blockchain_network": "http://localhost:7545",
+  "vendors": {
+    "entry": "./src/vendors/index.js",
+    "outputPath": "./dist",
+    "outputFile": "vendors.js"
+  },
+  "js": {
+    "entry": {
+      "app": "./src/app.js",
+      "transfer": "./src/transfer.js"
+    },
+    "outputPath": "./dist"
+  }
+}
